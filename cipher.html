@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+        <title>Caesar Cipher</title>
+</head>
+<body>
+        <link rel="stylesheet" href="styles/cipher.css" type="text/css" />
+        <script type="text/javascript" src="js/cipher.js"></script>
+        <h1>You Can Encrypt your Messages here using Caesar Cipher</h1>
+        <fieldset>
+                <fieldset>
+                        <legend>Enter Text Here: </legend>
+                        <textarea autofocus rows="6" cols="100" input type="text" value="" id="input" placeholder="Type the Message to be Encrypted Here"></textarea>
+                </fieldset>
+                </br>
+                <div class="output1">
+                        <button type="button" class="button1" name="submit" autocomplete="off" onclick="encrypt()"> Encrypt &#x2193; </button>
+                        <button type="button" class="button2" name="submit" autocomplete="off" onclick="decrypt()"> Decrypt &#x2193; </button>
+                </div>
+                </br>
+                <fieldset>
+                        <legend>Encrypted Message </legend>
+                        <textarea rows="6" cols="100" input type="text" name="encryptedText" id="output1" value="" placeholder="Encrypted / Decrypted Message Appears Here"></textarea>
+                </fieldset>
+                </div>
+                </br>
+        </fieldset>
+
+</body>
+</html>
