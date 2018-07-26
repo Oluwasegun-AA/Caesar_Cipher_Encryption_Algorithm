@@ -1,0 +1,42 @@
+h1 {
+    color: blueviolet;
+    background-color: cornsilk;
+    margin: 5px;
+    padding: 5px;
+    border: light #343434 groove;
+    text-align:center;
+}
+body {
+    background-color: bisque;
+        text-align: center;
+    }
+
+body>fieldset {
+    color: darkblue;
+    border: 1px solid rgb(19, 83, 136);
+    margin: 5px;
+    padding-left:5px;
+    text-align: center;
+    width: 30px;
+    margin: 30px;
+    orientation: center;
+    margin-left: 550px;
+    
+}
+
+.p{
+    text-align: center;
+    color: darkgreen;
+    border: thick burlywood;
+    font-size: 16px;
+}
+
+.button1{
+    font-size: 32px;
+    margin-right: 300px
+}
+
+.button2{
+    font-size: 32px;
+}
+
