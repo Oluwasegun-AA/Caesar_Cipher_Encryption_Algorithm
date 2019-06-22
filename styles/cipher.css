@@ -1,42 +1,77 @@
-h1 {
-    color: blueviolet;
-    background-color: cornsilk;
-    margin: 5px;
-    padding: 5px;
-    border: light #343434 groove;
-    text-align:center;
-}
+html,
 body {
-    background-color: bisque;
-        text-align: center;
-    }
-
-body>fieldset {
-    color: darkblue;
-    border: 1px solid rgb(19, 83, 136);
-    margin: 5px;
-    padding-left:5px;
-    text-align: center;
-    width: 30px;
-    margin: 30px;
-    orientation: center;
-    margin-left: 550px;
-    
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
-.p{
-    text-align: center;
-    color: darkgreen;
-    border: thick burlywood;
-    font-size: 16px;
+.span {
+  color:#4FB1BA;
+  width: 100%;
 }
 
-.button1{
-    font-size: 32px;
-    margin-right: 300px
+body {
+  background-color: #222930;
+  text-align: center;
+  height: 100vh;
 }
 
-.button2{
-    font-size: 32px;
+.top {
+  height: 93vh;
 }
 
+.p {
+  text-align: center;
+  color: #222930;
+  border: thick burlywood;
+  font-size: 16px;
+}
+
+.button {
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer {
+  background-color: black;
+  color: bisque;
+  height: 7vh;
+}
+
+h5 {
+  text-align: center;
+}
+
+.container {
+  color: darkblue;
+  width: max-content;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.041), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+}
+fieldset {
+  border-radius: 5px;
+  color: #4FB1BA;
+  border:rgb(160, 160, 160);
+  background-color: rgb(62, 70, 67)
+}
+textarea {
+  border-radius: 5px;
+  background-color: rgb(189, 186, 186);
+}
+
+.follow {
+  color: burlywood;
+}
+
+.text{
+  padding-top: 3px;
+  text-align: center;
+}
