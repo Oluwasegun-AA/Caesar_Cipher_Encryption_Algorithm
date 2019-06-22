@@ -32,6 +32,11 @@ body {
   border-radius: 5px;
 }
 
+.button:hover {
+  background-color: #4FB1BA;
+  color: white;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -40,7 +45,7 @@ body {
 
 .footer {
   background-color: black;
-  color: bisque;
+  color:burlywood;
   height: 7vh;
 }
 
@@ -74,4 +79,5 @@ textarea {
 .text{
   padding-top: 3px;
   text-align: center;
+  color: burlywood;
 }
