@@ -6,7 +6,7 @@ body {
 }
 
 .span {
-  color:#4FB1BA;
+  color: #4fb1ba;
   width: 100%;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .button:hover {
-  background-color: #4FB1BA;
+  background-color: #4fb1ba;
   color: white;
 }
 
@@ -44,12 +44,12 @@ body {
 
 .footer {
   background-color: black;
-  color:burlywood;
+  color: burlywood;
   height: 7vh;
   position: fixed;
   bottom: 0;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
 }
 
 h5 {
@@ -61,14 +61,15 @@ h5 {
   width: max-content;
   margin: auto;
   margin-top: 5%;
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.041), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.041),
+    0 6px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
 }
 fieldset {
   border-radius: 5px;
-  color: #4FB1BA;
-  border:rgb(160, 160, 160);
-  background-color: rgb(62, 70, 67)
+  color: #4fb1ba;
+  border: rgb(160, 160, 160);
+  background-color: rgb(62, 70, 67);
 }
 textarea {
   border-radius: 5px;
@@ -79,7 +80,7 @@ textarea {
   color: burlywood;
 }
 
-.text{
+.text {
   padding-top: 3px;
   text-align: center;
   color: burlywood;
