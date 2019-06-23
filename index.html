@@ -1,43 +1,123 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
+
 <head>
-        <title>Caesar Cipher</title>
-        <link rel="stylesheet" href="styles/cipher.css" type="text/css" />
-      </head>
-      <body>
-        <div class="top">
-          <hr>
-          <h2 class="span">Encrypt your messages using the Caesar Cipher Algorithm</h2>
-          <hr>
-          <style>#forkongithub a{background:#000;color:#fff;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#c11;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/shegsteham/Caesar_Cipher_Encryption_Algorithm">Fork me on GitHub</a></span>
-          <div class="container"> 
-            <fieldset class="fieldsets">
-              <fieldset>
-                <legend>Enter Text Here: </legend>
-                <textarea autofocus rows="6" cols="100" input type="text" value="" id="input" placeholder="Type the Message to be Encrypted / Decrypted Here"></textarea>
-              </fieldset>
-            </br>
-            <div class="buttons">
-              <button type="button" class="button" id="encrypt" autocomplete="off"> Encrypt &#x2193; </button>
-              <button type="button" class="button" id="decrypt" autocomplete="off"> Decrypt &#x2193; </button>
-            </div>
-          </br>
-          <fieldset>
-            <legend>Encrypted / Decrypted Message </legend>
-            <textarea rows="6" cols="100" input type="text" name="encryptedText" id="output" value="" placeholder="Encrypted / Decrypted Message Appears Here"></textarea>
-          </fieldset>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Text encryption using caesar cipher algorithm">
+  <meta name="keywords" content="encrypt, decrypt, caesar cipher, algorithm, encryption">
+  <meta name="author" content="Adépòjù Olúwáségun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Caesar Cipher Encrption Algorithm</title>
+  <!-- Favicon -->
+  <link rel="icon" href="img/fav.ico" sizes="16x16">
+  <link rel="stylesheet" href="styles/cipher.css" type="text/css" />
+</head>
+
+<body>
+  <div class="top">
+    <hr>
+    <h2 class="span">Encrypt your messages using the Caesar Cipher Algorithm</h2>
+    <hr>
+    <style>
+      #forkongithub a {
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px 40px;
+        font-size: 1rem;
+        line-height: 2rem;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      #forkongithub a:hover {
+        background: #c11;
+        color: #fff;
+      }
+
+      #forkongithub a::before,
+      #forkongithub a::after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 0;
+        height: 1px;
+        background: #fff;
+      }
+
+      #forkongithub a::after {
+        bottom: 1px;
+        top: auto;
+      }
+
+      @media screen and (min-width:800px) {
+        #forkongithub {
+          position: fixed;
+          display: block;
+          top: 0;
+          right: 0;
+          width: 200px;
+          overflow: hidden;
+          height: 200px;
+          z-index: 9999;
+        }
+
+        #forkongithub a {
+          width: 200px;
+          position: absolute;
+          top: 60px;
+          right: -60px;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+        }
+      }
+
+    </style><span id="forkongithub"><a href="https://github.com/shegsteham/Caesar_Cipher_Encryption_Algorithm">Fork me
+        on GitHub</a></span>
+    <div class="container">
+      <fieldset class="fieldsets">
+        <fieldset>
+          <legend>Enter Text Here: </legend>
+          <textarea autofocus rows="6" cols="100" input type="text" value="" id="input"
+            placeholder="Type the Message to be Encrypted / Decrypted Here"></textarea>
+        </fieldset>
+        </br>
+        <div class="buttons">
+          <button type="button" class="button" id="encrypt" autocomplete="off"> Encrypt &#x2193; </button>
+          <button type="button" class="button" id="decrypt" autocomplete="off"> Decrypt &#x2193; </button>
         </div>
-      </br>
+        </br>
+        <fieldset>
+          <legend>Encrypted / Decrypted Message </legend>
+          <textarea rows="6" cols="100" input type="text" name="encryptedText" id="output" value=""
+            placeholder="Encrypted / Decrypted Message Appears Here"></textarea>
+        </fieldset>
+    </div>
+    </br>
     </fieldset>
     <h5 class="follow">Follow me on Twitter</h5>
-    <a href="https://twitter.com/shegsteham?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a href="https://twitter.com/shegsteham?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+      data-show-count="false">Follow @TwitterDev</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-</div>
-<script type="text/javascript" src="js/cipher.js"></script>
+  </div>
+  <script type="text/javascript" src="js/cipher.js"></script>
 </body>
 <footer class="footer">
   <div class="text">
     <p>@shegsteham</p>
   </div>
 </footer>
+
 </html> 
