@@ -3,7 +3,6 @@ Caesar Cipher Encryption Algorithm with a Left shift of  5
 
 ## Table of Contents
 
-* [Project Overview](#Project-Overview)
 * [Features](#Features)
 * [Demo](#demo)
 * [Built with](#built-with)
@@ -13,10 +12,6 @@ Caesar Cipher Encryption Algorithm with a Left shift of  5
 
 ### Test the App here
 View the App [HERE](https://shegsteham.github.io/Caesar_Cipher_Encryption_Algorithm/)
-
-
-## Project Overview
-**Fast Food Fast** is a food delivery service app for restaurants. it was built from scratch using `Html` , `Css` , `JavaScript`, `react.js` and `Node.js`
 
 ## Features
 
