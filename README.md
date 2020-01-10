@@ -31,7 +31,7 @@ View the App [HERE](https://oluwasegun-aa.github.io/Caesar_Cipher_Encryption_Alg
 ## Contributing
 >  Feel free to 🍴 fork this repository
 
->  👯 Clone this repository to your local machine using `https://github.com/shegsteham/Caesar_Cipher_Encryption_Algorithm.git`
+>  👯 Clone this repository to your local machine using `https://github.com/oluwasegun-aa/Caesar_Cipher_Encryption_Algorithm.git`
 
 > Make Contributions
 
